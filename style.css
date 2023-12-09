@@ -1,0 +1,58 @@
+body{
+    background-image: url(./assets/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    font-size: 120px;
+    font-weight:1000;
+    font-family:sans-serif ;
+    color: rgb(162, 172, 182) ;
+    margin: 0px;
+    padding-top: 20px;
+    line-height: 100px;
+
+}
+
+.text-1{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(121, 121, 121);
+    margin: 0px;
+}
+
+.card-1,.card-2,.card-3{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 480px;
+    font-family: sans-serif;
+    margin: 15px 10px;
+    float: left;
+}
+
+.card-title{
+    font-weight: 700;
+    margin: 20px 5px;
+}
+
+.content{
+    margin: 20px 5px;
+}
+
+.clear{
+    clear:both;
+}
+
+.text-2{
+    width: 350px;
+    height: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin: 10px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
